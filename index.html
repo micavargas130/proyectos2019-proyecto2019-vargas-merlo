@@ -1,46 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
-
-    <title> Area y perimetro </title>
+    <LINK REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen>
+    <title>Triangulos rectangulos</title>
 </head>
-<body>
-<header>
-
-    <section> Aprender geometria </section>
-
-    <h1><b> Area y perimetro </b></h1>
-
-     <ul>
-
-        <li> Ingrese cantidad de figuras
-
-            <input type="number" name="cantidad de figuras" min="0" max="5" step="1" value="1">
-
-        </li>
-
-         <br>
-
-         <li> Seleccione lo que desea calcular
-
-           <select name="calcular">
-
-                <option value="area">area</option>
-                <option value="perimetro">perimetro</option>
-
-            </select> </li>
-     </br>
-
-     </ul>
-
-    <br> <button type="button">Comenzar</button> </br>
-
-
+    <div class="titulo">
+        <h1 align="center"> Calculando con Pitagoras </h1>
     </div>
 
-</header>
+    <div class="fondo">
+        <div class="instrucciones">
+            <h3 align="left"> Finalidad del programa: </h3>
+                <p> Mediante el Teorema de Pitagoras permite calcular el lado faltante de una tiangulo rectangulo,
+                    tambien da la opcion para el calculo del area y del perimetro, y dibuja la figura</p>
+            <h3 align="left"> Instrucciones </h3>
+                <ol>
+                    <li>Ingresa los lados que tengas como datos, deja en 0 el casillero de la incognita</li>
+                    <li>Si deseas calcular tambien el area o el perimetro, selecciona la opcion</li>
+                    <li>Pulsa calcular para correr el programa</li>
+                </ol>
+            <img src="imagen.png" align="center" width="80" height="80">
+
+        </div>
+        <div class="juego" id="juego">
+            <h3> Ingrese datos: </h3>
+            <h4> Cateto 1: </h4><input type="number" name="Cateto 1" min="0" max="100" step="1" value="0">
+            <h4> Cateto 2: </h4><input type="number" name="Cateto 2" min="0" max="100" step="1" value="0">
+            <h4> Hipotenusa: </h4><input type="number" name="Hipotenusa" min="0" max="100" step="1" value="0">
+            <h3> Calcular tambien:</h3>
+            <select name=" ">
+                <option value="Area">Area</option>
+                <option value="Perimetro">Perimetro</option>
+                <option value="Ambas">Ambas</option>
+                <option value="Ninguno">Ninguno</option>
+            </select>
+            <button type="button">Calcular</button>
+        </div>
+    </div>
+<footer>
+     <h6 align="right"> Reiniciar </h6>
+</footer>
 
 </body>
 </html>
