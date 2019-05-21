@@ -1,0 +1,67 @@
+.titulo{
+
+    border: 3px solid black;
+}
+
+.fondo{
+
+    background: skyblue;
+    display: table;
+    width: 1287px;
+    height: 800px;
+}
+
+.fondo div{
+    display: table-cell;
+}
+.fondo{
+
+    position: relative;
+    padding: 20px;
+    background-color: skyblue;
+    border: 3px solid black;
+}
+
+.info{
+
+    font-style: normal;
+    margin: 100px;
+}
+
+.info img{
+    display: block;
+    margin: auto;
+}
+
+.info p{
+    text-align: center;
+}
+
+.info p input{
+    display: block;
+    margin: auto;
+
+}
+
+
+
+#header {
+
+    margin: auto;
+}
+
+#header li{
+
+    list-style: none;
+    background-color: black;
+
+}
+
+#header li a {
+
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 1080px;
+
+}
+

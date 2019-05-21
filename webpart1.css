@@ -1,0 +1,95 @@
+.titulo{
+
+    border: 3px solid black;
+    border-bottom: none;
+
+}
+.fondo{
+
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+
+.fondo div{
+    display: table-cell;
+}
+
+#header {
+
+    margin: auto;
+}
+
+#header li{
+
+    list-style: none;
+    background-color: black;
+
+}
+
+#header li a{
+
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 1080px;
+
+}
+
+.instrucciones{
+
+    position: relative;
+    padding: 20px;
+    background-color: orange;
+    width: 20%;
+    vertical-align: top;
+    height: 100%;
+    border: 3px solid black;
+
+}
+
+.instrucciones ol li{
+
+    padding: 1px 5px;
+
+}
+
+.datos{
+
+    position: relative;
+    padding: 30px;
+    background-color: skyblue;
+    vertical-align: top;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+.solucion{
+
+    position: relative;
+    padding: 70px;
+    background-color: skyblue;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    width: 70%;
+    height: 100%;
+
+
+}
+ .solucion button {
+
+     margin-left: 300px;
+ }
+
+#lienzo {
+
+    position: sticky;
+    align-self: end;
+    margin: 50px ;
+    width:  400px;
+    height: 400px;}
+
+}
+
