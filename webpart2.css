@@ -7,7 +7,7 @@
 
     background: skyblue;
     display: table;
-    width: 1287px;
+    width: 97%;
     height: 800px;
 }
 
@@ -43,8 +43,6 @@
 
 }
 
-
-
 #header {
 
     margin: auto;
@@ -64,4 +62,3 @@
     margin-left: 1080px;
 
 }
-
