@@ -43,19 +43,19 @@
 
 }
 
-#header {
+.menu {
 
     margin: auto;
 }
 
-#header li{
+.menu li{
 
     list-style: none;
     background-color: black;
 
 }
 
-#header li a {
+.menu li a {
 
     color: aliceblue;
     text-decoration: none;

@@ -15,19 +15,19 @@
     display: table-cell;
 }
 
-#header {
-
+.menu {
     margin: auto;
+    list-style: none;
 }
 
-#header li{
+.menu li{
 
     list-style: none;
     background-color: black;
 
 }
 
-#header li a{
+.menu li a{
 
     color: aliceblue;
     text-decoration: none;
